@@ -8,10 +8,13 @@
       "type": "node",
       "request": "attach",
       "protocol": "inspector",
-      "restart": true,
-      "name": "Debug",
-      "skipFiles": ["<node_internals>/**"],
-      "outFiles": ["${workspaceFolder}/**/*.js"]
+      "name": "Debug Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
     }
   ]
 }
